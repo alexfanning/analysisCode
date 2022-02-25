@@ -3,7 +3,7 @@ function [f0,deltaF] = getf0(f,W,f0smoothFactor,g)
 
 
 %F is the raw fluorescence signal
-%W is the width of the slidding Window (~300 seems good for your data).
+%W is the width of the sliding Window (~300 seems good for your data).
 %But play with it to see how it changes
 %%
 N = length(f);
