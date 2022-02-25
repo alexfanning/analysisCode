@@ -5,11 +5,8 @@ function [clusterCenter,sortedCenterIdx] = findTightestCluster(sortedChunk, clus
 %   considered. It calculates the range (max - min) of each cluster
 %   and returns the index of the center of the cluster with the smallest 
 %   range (ignoring clusters that contain NaNs)
-%  
-% 
-% Andrew Kirjner, July 2021
-% *********************************************************************
-    % Set initial minimum to infinity and set initial cluster center index
+
+% Set initial minimum to infinity and set initial cluster center index
     minRange = Inf; 
     winCenterIdx = floor(clusterSize/2);
     % Loop through all potential clusters
