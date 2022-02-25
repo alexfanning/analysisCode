@@ -7,9 +7,6 @@ function [saccadeIdxs,connectionDistance] = getSaccadeIdxs(sortedCenterIdx, sort
 %
 %   The function returns the indices of the saccade/event points in the
 %   sorted chunk 
-% 
-% Andrew Kirjner, July 2021
-% *********************************************************************
       
       % Start with defining the points that are non-saccades, define a
       % counter to keep track of the current next index of this vector so
