@@ -23,9 +23,6 @@ function [saccadeVec, flatData,connectionDistance,clusterCenter] = saccadeFilter
 %   
 %   The function returns a binary vector of length m * n, as well as the
 %   flattened input data.
-%
-% Andrew Kirjner, July 2021
-% *********************************************************************
    
     % Flatten data
     flatData = reshape(chunks.', 1, []);
